@@ -1,1 +1,26 @@
 /*  your css code here. If applicable */
+#ex1 {
+    width: 900px;
+    height: 500px;
+    object-fit: cover;
+    display: inline-block;
+    vertical-align: middle; /* Align the image with the top of the div */
+}
+#ex2 {
+    width: 300px;
+    display: inline-block;
+    text-align: center; /* Center text and elements inside */
+    margin-left: 20px; /* Spacing between the image and the div */
+    position: relative;
+    top: 50%; /* Move to the middle of the container */
+    transform: translateY(-50%); /* Adjust position back to align middle */
+}
+
+#ex2 h1, #ex2 p, #ex2 button {
+    margin: 10px 0; /* Add spacing between elements */
+}
+
+#ex3{
+    background-color: #FE0300;
+    color: white;
+}
